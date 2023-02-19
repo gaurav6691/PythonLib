@@ -44,3 +44,4 @@ scipy==1.9.1
 TBB==0.2
 webencodings==0.5.1
 zict==2.1.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability

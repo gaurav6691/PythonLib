@@ -40,7 +40,7 @@ pytest==7.1.2
 python-lsp-jsonrpc==1.0.0
 PyYAML==6.0
 queuelib==1.5.0
-scipy==1.9.1
+scipy==1.10.0
 TBB==0.2
 webencodings==0.5.1
 zict==2.1.0

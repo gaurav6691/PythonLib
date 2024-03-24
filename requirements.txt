@@ -15,12 +15,12 @@ cytoolz==0.11.0
 daal4py==2021.6.0
 datashape==0.5.4
 et-xmlfile==1.1.0
-fonttools==4.25.0
+fonttools==4.43.0
 inflection==0.5.1
 llvmlite==0.38.0
 mkl-fft==1.3.1
 mkl-service==2.4.0
-mpmath==1.2.1
+mpmath==1.3.0
 munkres==1.1.4
 mypy-extensions==0.4.3
 navigator-updater==0.3.0
@@ -28,7 +28,7 @@ openpyxl==3.0.10
 pandas==1.4.4
 patsy==0.5.2
 pep8==1.7.1
-Pillow>=9.3.0
+Pillow>=10.2.0
 ply==3.11
 pyasn1-modules==0.2.8
 pycosat==0.6.3
@@ -44,3 +44,5 @@ scipy==1.9.1
 TBB==0.2
 webencodings==0.5.1
 zict==2.1.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
